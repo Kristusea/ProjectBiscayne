@@ -1,0 +1,8 @@
+highLevelMaterial CubemapZone
+{
+	template = ShaderBaseMaterial
+	lighting = False
+	diffuseColor = 0 0 0
+	reflectionColor = 1 1 1
+	emissionColor = 0.1960784 0.1960784 0.1960784
+}

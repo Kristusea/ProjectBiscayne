@@ -1,0 +1,6 @@
+highLevelMaterial Editor_OnlyForEditorObject
+{
+	template = ShaderBaseMaterial
+	diffuseColor = 0.6078432 0 0
+	emissionColor = 0.3921569 0 0
+}

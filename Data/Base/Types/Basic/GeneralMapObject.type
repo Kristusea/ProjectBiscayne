@@ -1,0 +1,14 @@
+type GeneralMapObject
+{
+	class = MapObject
+	attachedObjects
+	{
+		mesh
+		{
+			meshName = "Base\\Types\\InvisiblePoint.mesh"
+			castDynamicShadows = True
+			scale = 0.4 0.4 0.4
+			onlyForEditor = True
+		}
+	}
+}

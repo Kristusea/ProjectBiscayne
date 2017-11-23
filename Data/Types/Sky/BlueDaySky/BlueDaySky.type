@@ -1,0 +1,17 @@
+type BlueDaySky
+{
+	class = CameraAttachedObject
+	allowEmptyName = True
+	networkType = ClientOnly
+	items
+	{
+		mesh
+		{
+			position = 0 0 -20
+			allowFrustumGlobalClipPlanes = False
+			meshName = ".\\BlueDaySky.mesh"
+			renderQueueGroup = SkiesEarly
+			thisIsSkyGeometry = True
+		}
+	}
+}

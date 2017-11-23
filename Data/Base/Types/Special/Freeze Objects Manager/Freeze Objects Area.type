@@ -1,0 +1,14 @@
+type "Freeze Objects Area"
+{
+	class = FreezeObjectsArea
+	attachedObjects
+	{
+		mesh
+		{
+			meshName = ".\\FreezeObjectAreaPoint.mesh"
+			castDynamicShadows = False
+			useOwnerScale = False
+			onlyForEditor = True
+		}
+	}
+}

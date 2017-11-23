@@ -1,0 +1,10 @@
+highLevelMaterial T_SidewalkCorner_b_D
+{
+	dataSource = ".\\SM_RoadSegment_3.modelImport"
+	template = ShaderBaseMaterial
+	diffuseColor = 0.6 0.6 0.6
+	diffuse1Map
+	{
+		texture = ".\\T_SidewalkCorner_b_D.tga"
+	}
+}

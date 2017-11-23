@@ -1,0 +1,27 @@
+highLevelMaterial BlueDaySky
+{
+	template = ShaderBaseMaterial
+	lighting = False
+	receiveShadows = False
+	allowFog = False
+	depthWrite = False
+	depthTest = False
+	diffusePower = 1.078431
+	diffuse1Map
+	{
+		texture = ".\\Sky_Simple.tga"
+	}
+	diffuse2Map
+	{
+		texture = ".\\Clouds_a.tga"
+		blending = AlphaBlend
+		transform
+		{
+			scroll = 100 0
+			animation
+			{
+				scrollSpeed = 0.001 0
+			}
+		}
+	}
+}

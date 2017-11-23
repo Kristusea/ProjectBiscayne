@@ -1,0 +1,15 @@
+type CubemapZone_BoxParallaxCorrectedZone
+{
+	class = CubemapZone_BoxParallaxCorrectedZone
+	networkType = ClientOnly
+	attachedObjects
+	{
+		mesh
+		{
+			meshName = ".\\CubemapZone_BoxParallaxCorrectedZone.mesh"
+			useOwnerScale = False
+			scale = 0.35 0.35 0.35
+			onlyForEditor = True
+		}
+	}
+}

@@ -1,0 +1,12 @@
+highLevelMaterial Tree06A_Bark_LOD
+{
+	template = VegetationMaterial
+	receiveSimpleShadows = True
+	windEffectFactor = 0.5
+	bendVariation = 0.005
+	detailBending = False
+	diffuse1Map
+	{
+		texture = "Types\\Vegetation\\Trees\\Textures\\Bark6A.dds"
+	}
+}

@@ -1,0 +1,15 @@
+type CubemapZone
+{
+	class = CubemapZone
+	networkType = ClientOnly
+	attachedObjects
+	{
+		mesh
+		{
+			meshName = ".\\CubemapZone.mesh"
+			useOwnerScale = False
+			scale = 0.35 0.35 0.35
+			onlyForEditor = True
+		}
+	}
+}

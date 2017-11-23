@@ -1,0 +1,16 @@
+sourceFile = "Objects\\SM_Underwater.dae"
+objects
+{
+	mesh
+	{
+		name = SM_Underwater
+		sources
+		{
+			item
+			{
+				name = geometries_0
+				rotation = -0.7071068 0 0 -0.7071068
+			}
+		}
+	}
+}

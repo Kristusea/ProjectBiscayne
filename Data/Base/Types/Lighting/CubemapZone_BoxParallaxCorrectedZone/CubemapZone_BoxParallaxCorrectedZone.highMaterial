@@ -1,0 +1,7 @@
+highLevelMaterial CubemapZone_BoxParallaxCorrectedZone
+{
+	template = ShaderBaseMaterial
+	lighting = False
+	diffuseColor = 0 0 0
+	emissionColor = 0.509804 0.509804 0.509804
+}

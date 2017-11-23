@@ -1,0 +1,24 @@
+float4 main_fp(
+	uniform float multiply,
+	uniform float add,
+	float2 texCoord : TEXCOORD0,
+	uniform sampler2D RT : register(s0),
+	uniform sampler2D lookUpTable : register(s1)
+) : COLOR
+{
+	half3 source = (half3)tex2D(RT, texCoord).rgb;
+
+	//!!!!!we can use volume texture
+	//tex3D(lookUpTable, source * (15.0f / 16.0f) + (0.5f / 16.0f)).xyz;
+
+	float2 offset = float2(0.5f / 256.0f, 0.5f / 16.0f);
+	float scale = 15.0f / 16.0f;
+	float intB = floor(source.b * 14.9999f) / 16.0f;
+	half fracB = source.b * 15.0f - intB * 16.0f;
+	float u = intB + source.r * scale / 16.0f;
+	float v = source.g * scale;
+	half3 rg0 = tex2D(lookUpTable, offset + float2(u, v)).rgb;
+	half3 rg1 = tex2D(lookUpTable, offset + float2(u + 1.0f / 16.0f, v)).rgb;
+	half3 color = lerp(rg0, rg1, fracB);
+	return float4(color * multiply + half3(add, add, add), 1);
+}

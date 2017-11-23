@@ -1,0 +1,28 @@
+sourceFile = "Objects\\SM_RoadSegment_44.dae"
+objects
+{
+	mesh
+	{
+		name = SM_RoadSegment_44
+		pivotRotation = -0.7071068 0 0 0.7071068
+		sources
+		{
+			item
+			{
+				name = geometries_3
+			}
+			item
+			{
+				name = geometries_32
+			}
+			item
+			{
+				name = geometries_33
+			}
+			item
+			{
+				name = geometries_34
+			}
+		}
+	}
+}

@@ -1,0 +1,424 @@
+Log started: 11/20/2017 11:38:34 AM
+Info: Powered by NeoAxis 3D Engine
+Info: Operating System: Microsoft Windows 6.2.9200.0 (64-bit)
+Info: Runtime Framework: Net 4.0.30319.42000
+Info: NeoAxis 3D Engine version: 3.5
+Info: Engine 64-bit version
+Info: Application type: Simulation
+Info: Physics system is initialized (Driver: NVIDIA PhysX 3.3.4)
+Info: OGRE: Added resource location 'C:\Users\Macbook\Desktop\New Vice City Project\Data' of type 'VirtualFileSystem' to resource group 'General' with recursive option
+Info: OGRE: Loading library RenderSystem_Direct3D9.dll
+Info: OGRE: Installing plugin: D3D9 RenderSystem
+Info: OGRE: D3D9 : Direct3D9 Rendering Subsystem created.
+Info: OGRE: D3D9: Driver Detection Starts
+Info: OGRE: D3D9: Driver: \\.\DISPLAY1; Intel(R) HD Graphics 6000
+Info: OGRE: D3D9: Driver Detection Ends
+Info: OGRE: Plugin successfully installed
+Info: OGRE: CPU Identifier & Features
+Info: OGRE: -------------------------
+Info: OGRE:  *   CPU ID: GenuineIntel: Intel(R) Core(TM) i5-5250U CPU @ 1.60GHz
+Info: OGRE:  *      SSE: yes
+Info: OGRE:  *     SSE2: yes
+Info: OGRE:  *     SSE3: yes
+Info: OGRE:  *      MMX: yes
+Info: OGRE:  *   MMXEXT: yes
+Info: OGRE:  *    3DNOW: no
+Info: OGRE:  * 3DNOWEXT: no
+Info: OGRE:  *     CMOV: yes
+Info: OGRE:  *      TSC: yes
+Info: OGRE:  *      FPU: yes
+Info: OGRE:  *      PRO: yes
+Info: OGRE:  *       HT: no
+Info: OGRE: -------------------------
+Info: OGRE: D3D9 : Subsystem Initialising
+Info: OGRE: Driver name: igdumdim64.dll
+Info: OGRE: Driver description: Intel(R) HD Graphics 6000
+Info: OGRE: ***************************************
+Info: OGRE: *** D3D9 : Subsystem Initialised OK ***
+Info: OGRE: ***************************************
+Info: OGRE: D3D9RenderSystem::_createRenderWindow "MainWindow", 640x480 fullscreen  miscParams: colourDepth=32 externalWindowHandle=67856 vsync=true 
+Info: OGRE: D3D9 : Created D3D9 Rendering Window 'MainWindow' : 1440x900, 32bpp
+Info: OGRE: Registering ResourceManager for type Texture
+Info: OGRE: Registering ResourceManager for type GpuProgram
+Info: OGRE: D3D9: Vertex texture format supported - PF_L8 PF_L16 PF_A8 PF_A4L4 PF_BYTE_LA PF_R5G6B5 PF_B5G6R5 PF_A4R4G4B4 PF_A1R5G5B5 PF_A8R8G8B8 PF_A8B8G8R8 PF_B8G8R8A8 PF_A2R10G10B10 PF_A2B10G10R10 PF_DXT1 PF_DXT2 PF_DXT3 PF_DXT4 PF_DXT5 PF_FLOAT16_RGB PF_FLOAT16_RGBA PF_FLOAT32_RGB PF_FLOAT32_RGBA PF_X8R8G8B8 PF_R8G8B8A8 PF_DEPTH24 PF_SHORT_RGBA PF_FLOAT16_R PF_FLOAT32_R PF_SHORT_GR PF_FLOAT16_GR PF_FLOAT32_GR PF_SHORT_RGB PF_PVRTC_RGB2 PF_PVRTC_RGBA2 PF_PVRTC_RGB4 PF_PVRTC_RGBA4 PF_3DC
+Info: OGRE: RenderSystem capabilities
+Info: OGRE: -------------------------
+Info: OGRE: RenderSystem Name: Direct3D9 Rendering Subsystem
+Info: OGRE: GPU Vendor: intel
+Info: OGRE: Device Name: Intel(R) HD Graphics 6000
+Info: OGRE: Driver Version: 20.19.15.4531
+Info: OGRE:  * Fixed function pipeline: yes
+Info: OGRE:  * Hardware generation of mipmaps: yes
+Info: OGRE:  * Texture blending: yes
+Info: OGRE:  * Anisotropic texture filtering: yes
+Info: OGRE:  * Dot product texture operation: yes
+Info: OGRE:  * Cube mapping: yes
+Info: OGRE:  * Hardware stencil buffer: yes
+Info: OGRE:    - Stencil depth: 8
+Info: OGRE:    - Two sided stencil support: yes
+Info: OGRE:    - Wrap stencil values: yes
+Info: OGRE:  * Hardware vertex / index buffers: yes
+Info: OGRE:  * Vertex programs: yes
+Info: OGRE:  * Number of floating-point constants for vertex programs: 256
+Info: OGRE:  * Number of integer constants for vertex programs: 16
+Info: OGRE:  * Number of boolean constants for vertex programs: 16
+Info: OGRE:  * Fragment programs: yes
+Info: OGRE:  * Number of floating-point constants for fragment programs: 224
+Info: OGRE:  * Number of integer constants for fragment programs: 16
+Info: OGRE:  * Number of boolean constants for fragment programs: 16
+Info: OGRE:  * Geometry programs: no
+Info: OGRE:  * Number of floating-point constants for geometry programs: 0
+Info: OGRE:  * Number of integer constants for geometry programs: 0
+Info: OGRE:  * Number of boolean constants for geometry programs: 0
+Info: OGRE:  * Supported Shader Profiles: hlsl ps_1_1 ps_1_2 ps_1_3 ps_1_4 ps_2_0 ps_2_a ps_2_b ps_2_x ps_3_0 vs_1_1 vs_2_0 vs_2_a vs_2_x vs_3_0
+Info: OGRE:  * Texture Compression: yes
+Info: OGRE:    - DXT: yes
+Info: OGRE:    - VTC: no
+Info: OGRE:    - PVRTC: no
+Info: OGRE:    - 3Dc: yes
+Info: OGRE:  * Scissor Rectangle: yes
+Info: OGRE:  * Hardware Occlusion Query: yes
+Info: OGRE:  * User clip planes: yes
+Info: OGRE:  * VET_UBYTE4 vertex element type: yes
+Info: OGRE:  * Infinite far plane projection: yes
+Info: OGRE:  * Hardware render-to-texture: yes
+Info: OGRE:  * Floating point textures: yes
+Info: OGRE:  * Non-power-of-two textures: yes
+Info: OGRE:  * Volume textures: yes
+Info: OGRE:  * Multiple Render Targets: 4
+Info: OGRE:    - With different bit depths: yes
+Info: OGRE:  * Point Sprites: yes
+Info: OGRE:  * Extended point parameters: yes
+Info: OGRE:  * Max Point Size: 256
+Info: OGRE:  * Vertex texture fetch: yes
+Info: OGRE:  * Number of world matrices: 0
+Info: OGRE:  * Number of texture units: 8
+Info: OGRE:  * Stencil buffer depth: 8
+Info: OGRE:  * Number of vertex blend matrices: 0
+Info: OGRE:    - Max vertex textures: 4
+Info: OGRE:    - Vertex textures shared: no
+Info: OGRE:  * Render to Vertex Buffer: no
+Info: OGRE:  * Alpha to coverage: no
+Info: OGRE:  * Fetch4: no
+Info: OGRE:  * Hardware Instancing: yes
+Info: OGRE:  * Depth Buffer As Texture (INTZ): yes
+Info: OGRE:  * DirectX per stage constants: yes
+Info: OGRE:  * Max texture size: 8192
+Info: OGRE: DefaultWorkQueue('Root') initialising on thread main.
+Info: OGRE: Particle Renderer Type 'billboard' registered
+Info: Renderer: GPU description: Intel(R) HD Graphics 6000
+Info: Renderer: GPU codename: Intel_HDGraphics
+Info: Renderer: Shader Model 3.0: yes
+Info: 2D texture render target pixel formats: ByteL ByteL ShortL ShortL ByteA ByteA R5G6B5 A4R4G4B4 A1R5G5B5 A8R8G8B8 A8B8G8R8 A2R10G10B10 A2B10G10R10 Float16RGBA Float32RGBA X8R8G8B8 ShortRGBA Float16R Float32R ShortGR Float16GR Float32GR
+Info: OGRE: Parsing scripts for resource group General
+Info: OGRE: Parsing script Base\Shaders\AmbientOneTexture.program
+Info: OGRE: Parsing script Base\Shaders\StdQuad_vp.program
+Info: OGRE: Parsing script Base\FullScreenEffects\_ShowDepth\ShowDepth.material
+Info: OGRE: Parsing script Base\FullScreenEffects\Blur\Blur.material
+Info: OGRE: Parsing script Base\FullScreenEffects\ColorCorrection\ColorCorrection.material
+Info: OGRE: Parsing script Base\FullScreenEffects\ColorCorrectionLUT\ColorCorrectionLUT.material
+Info: OGRE: Parsing script Base\FullScreenEffects\DepthOfField\DepthOfField_AutoFocusBegin.material
+Info: OGRE: Parsing script Base\FullScreenEffects\DepthOfField\DepthOfField_AutoFocusCurrent.material
+Info: OGRE: Parsing script Base\FullScreenEffects\DepthOfField\DepthOfField_AutoFocusFinal.material
+Info: OGRE: Parsing script Base\FullScreenEffects\DepthOfField\DepthOfField_AutoFocusIteration.material
+Info: OGRE: Parsing script Base\FullScreenEffects\DepthOfField\DepthOfField_Blur.material
+Info: OGRE: Parsing script Base\FullScreenEffects\DepthOfField\DepthOfField_Downscale.material
+Info: OGRE: Parsing script Base\FullScreenEffects\DepthOfField\DepthOfField_Final.material
+Info: OGRE: Parsing script Base\FullScreenEffects\FXAA\FXAA_Final.material
+Info: OGRE: Parsing script Base\FullScreenEffects\FXAA\FXAA_Luma.material
+Info: OGRE: Parsing script Base\FullScreenEffects\Glass\Glass.material
+Info: OGRE: Parsing script Base\FullScreenEffects\Grayscale\Grayscale.material
+Info: OGRE: Parsing script Base\FullScreenEffects\HDR\hdr_Bloom.material
+Info: OGRE: Parsing script Base\FullScreenEffects\HDR\hdr_BrightPass.material
+Info: OGRE: Parsing script Base\FullScreenEffects\HDR\hdr_CalculateAdaptedLuminance.material
+Info: OGRE: Parsing script Base\FullScreenEffects\HDR\hdr_CopyLastAdaptedLuminance.material
+Info: OGRE: Parsing script Base\FullScreenEffects\HDR\hdr_FinalToneMapping.material
+Info: OGRE: Parsing script Base\FullScreenEffects\HDR\hdr_GaussianBlur5x5.material
+Info: OGRE: Parsing script Base\FullScreenEffects\HDR\hdr_SampleLuminanceFinal.material
+Info: OGRE: Parsing script Base\FullScreenEffects\HDR\hdr_SampleLuminanceInitial.material
+Info: OGRE: Parsing script Base\FullScreenEffects\HDR\hdr_SampleLuminanceIterative.material
+Info: OGRE: Parsing script Base\FullScreenEffects\HeatVision\HaatVision_LightToHeat.material
+Info: OGRE: Parsing script Base\FullScreenEffects\HeatVision\HeatVision_Blur.material
+Info: OGRE: Parsing script Base\FullScreenEffects\Invert\Invert.material
+Info: OGRE: Parsing script Base\FullScreenEffects\LDRBloom\LDRBloom_Bloom.material
+Info: OGRE: Parsing script Base\FullScreenEffects\LDRBloom\LDRBloom_BrightPass.material
+Info: OGRE: Parsing script Base\FullScreenEffects\LDRBloom\LDRBloom_Final.material
+Info: OGRE: Parsing script Base\FullScreenEffects\LDRBloom\LDRBloom_GaussianBlur5x5.material
+Info: OGRE: Parsing script Base\FullScreenEffects\LightScattering\LightScattering_Blur.material
+Info: OGRE: Parsing script Base\FullScreenEffects\LightScattering\LightScattering_Final.material
+Info: OGRE: Parsing script Base\FullScreenEffects\LightScattering\LightScattering_Scattering.material
+Info: OGRE: Parsing script Base\FullScreenEffects\MotionBlur\MotionBlur_Combine.material
+Info: OGRE: Parsing script Base\FullScreenEffects\MotionBlur\MotionBlur_Copyback.material
+Info: OGRE: Parsing script Base\FullScreenEffects\MotionBlur\MotionBlur_Display.material
+Info: OGRE: Parsing script Base\FullScreenEffects\OldTV\OldTV.material
+Info: OGRE: Parsing script Base\FullScreenEffects\RadialBlur\RadialBlur.material
+Info: OGRE: Parsing script Base\FullScreenEffects\Sharpen\Sharpen.material
+Info: OGRE: Parsing script Base\FullScreenEffects\SSAO\SSAO_Blur.material
+Info: OGRE: Parsing script Base\FullScreenEffects\SSAO\SSAO_Copy.material
+Info: OGRE: Parsing script Base\FullScreenEffects\SSAO\SSAO_DepthDownsample1x1.material
+Info: OGRE: Parsing script Base\FullScreenEffects\SSAO\SSAO_DepthDownsample2x2.material
+Info: OGRE: Parsing script Base\FullScreenEffects\SSAO\SSAO_DepthDownsample3x3.material
+Info: OGRE: Parsing script Base\FullScreenEffects\SSAO\SSAO_Final.material
+Info: OGRE: Parsing script Base\FullScreenEffects\SSAO\SSAO_Occlusion.material
+Info: OGRE: Parsing script Base\FullScreenEffects\Tiling\Tiling.material
+Info: OGRE: Parsing script Base\FullScreenEffects\Vignetting\Vignetting.material
+Info: OGRE: Parsing script Base\FullScreenEffects\_ShowDepth\ShowDepth.compositor
+Info: OGRE: Parsing script Base\FullScreenEffects\Blur\Blur.compositor
+Info: OGRE: Parsing script Base\FullScreenEffects\ColorCorrection\ColorCorrection.compositor
+Info: OGRE: Parsing script Base\FullScreenEffects\ColorCorrectionLUT\ColorCorrectionLUT.compositor
+Info: OGRE: Parsing script Base\FullScreenEffects\DepthOfField\DepthOfField.compositor
+Info: OGRE: Parsing script Base\FullScreenEffects\FXAA\FXAA.compositor
+Info: OGRE: Parsing script Base\FullScreenEffects\Glass\Glass.compositor
+Info: OGRE: Parsing script Base\FullScreenEffects\Grayscale\Grayscale.compositor
+Info: OGRE: Parsing script Base\FullScreenEffects\HDR\hdr.compositor
+Info: OGRE: Parsing script Base\FullScreenEffects\HeatVision\HeatVision.compositor
+Info: OGRE: Parsing script Base\FullScreenEffects\Invert\Invert.compositor
+Info: OGRE: Parsing script Base\FullScreenEffects\LDRBloom\LDRBloom.compositor
+Info: OGRE: Parsing script Base\FullScreenEffects\LightScattering\LightScattering.compositor
+Info: OGRE: Parsing script Base\FullScreenEffects\MotionBlur\MotionBlur.compositor
+Info: OGRE: Parsing script Base\FullScreenEffects\OldTV\OldTV.compositor
+Info: OGRE: Parsing script Base\FullScreenEffects\RadialBlur\RadialBlur.compositor
+Info: OGRE: Parsing script Base\FullScreenEffects\Sharpen\Sharpen.compositor
+Info: OGRE: Parsing script Base\FullScreenEffects\SSAO\SSAO.compositor
+Info: OGRE: Parsing script Base\FullScreenEffects\Tiling\Tiling.compositor
+Info: OGRE: Parsing script Base\FullScreenEffects\Vignetting\Vignetting.compositor
+Info: OGRE: Parsing script Base\Types\Water Plane\WaterSplash\WaterSplash.particle
+Info: OGRE: Parsing script Base\Types\Water Plane\WaterSplashWave\WaterSplashWave.particle
+Info: OGRE: Parsing script Effects\ExplosionParticle\ExplosionParticle.particle
+Info: OGRE: Parsing script Effects\ExplosionParticle\ExplosionParticle2.particle
+Info: OGRE: Parsing script Effects\FireParticle\BigFireParticle.particle
+Info: OGRE: Parsing script Effects\FireParticle\FireParticle.particle
+Info: OGRE: Parsing script Effects\GreenyNimbusParticle\GreenyNimbusParticle.particle
+Info: OGRE: Parsing script Effects\ItemParticle\ItemParticle.particle
+Info: OGRE: Parsing script Effects\SmokeParticle\SmallSmokeParticle.particle
+Info: OGRE: Parsing script Effects\SmokeParticle\SmallSmokeParticle2.particle
+Info: OGRE: Parsing script Effects\SmokeParticle\SmokeParticle.particle
+Info: OGRE: Parsing script Types\Bullets\ShotgunBullet\ShotgunBullet.particle
+Info: OGRE: Parsing script Types\Bullets\ShotgunBullet\ShotgunBulletHit.particle
+Info: OGRE: Parsing script Types\Bullets\ShotgunBullet\ShotgunBulletHit2.particle
+Info: OGRE: Parsing script Types\Bullets\SubmachineGunBullet\SubmachineGunBulletHit.particle
+Info: OGRE: Parsing script Types\Bullets\SubmachineGunBullet\SubmachineGunBulletHit2.particle
+Info: OGRE: Parsing script Types\Bullets\SubmachineGunGrenade\SubmachineGunGrenadeParticle.particle
+Info: OGRE: Parsing script Types\Dynamic\DestructibleHouse\DestructibleHouseFileParticle.particle
+Info: OGRE: Parsing script Types\Dynamic\Fan\FanParticle\DemoFanParticle.particle
+Info: OGRE: Parsing script Types\Dynamic\Firework\FireworkBullet\FireworkBulletHit.particle
+Info: OGRE: Parsing script Types\Dynamic\GasFlamePipe\GasFlamePipeParticle\GasFlamePipe.particle
+Info: OGRE: Parsing script Types\Dynamic\Pipe\PipeLeak\PipeLeakFlameParticle\PipeLeakFlame.particle
+Info: OGRE: Parsing script Types\Dynamic\Pipe\PipeLeak\PipeLeakSteamParticle\PipeLeakSteam.particle
+Info: OGRE: Parsing script Types\Dynamic\Teleporter\TeleportParticle\DemoTeleporterReceive.particle
+Info: OGRE: Parsing script Types\Dynamic\Teleporter\TeleportParticle\DemoTeleporterSend.particle
+Info: OGRE: Parsing script Types\Units\Robot\RobotBullet\RobotBulletHit.particle
+Info: OGRE: Parsing script Types\Units\Robot\RobotBullet\RobotBulletHit2.particle
+Info: OGRE: Parsing script Types\Units\Turret\TurretBullet\TurretBulletHit.particle
+Info: OGRE: Parsing script Types\Units\Turret\TurretBullet\TurretBulletHit2.particle
+Info: OGRE: Parsing script Types\Units\Zombie\ZombieBullet\ZombieBulletHit.particle
+Info: OGRE: Finished parsing scripts for resource group General
+Info: OGRE: Parsing scripts for resource group Internal
+Info: OGRE: Finished parsing scripts for resource group Internal
+Info: Sound system is initialized (Driver: OpenAL 1.1 ALSOFT 1.17.2, Device: OpenAL Soft)
+Info: OGRE: RenderTarget "MainWindow": createAdditionalMRTs
+Info: OGRE: RenderTarget "rtt/468701344/MultiViewRendering00": createAdditionalMRTs
+Info: OGRE: RenderTarget "rtt/468701344/MultiViewRendering00": destroyAdditionalMRTs
+Info: OGRE: RenderTarget "rtt/652143296/MultiViewRendering00": createAdditionalMRTs
+Info: OGRE: RenderTarget "rtt/652146016/MultiViewRendering10": createAdditionalMRTs
+Info: OGRE: RenderTarget "rtt/652142976/MultiViewRendering20": createAdditionalMRTs
+Info: OGRE: RenderTarget "rtt/652144576/MultiViewRendering30": createAdditionalMRTs
+Info: OGRE: RenderTarget "rtt/652144576/MultiViewRendering30": destroyAdditionalMRTs
+Info: OGRE: RenderTarget "rtt/652142976/MultiViewRendering20": destroyAdditionalMRTs
+Info: OGRE: RenderTarget "rtt/652146016/MultiViewRendering10": destroyAdditionalMRTs
+Info: OGRE: RenderTarget "rtt/652143296/MultiViewRendering00": destroyAdditionalMRTs
+Info: OGRE: RenderTarget "rtt/652147872/MultiViewRendering00": createAdditionalMRTs
+Info: OGRE: RenderTarget "rtt/652144992/MultiViewRendering10": createAdditionalMRTs
+Info: OGRE: RenderTarget "rtt/652146176/MultiViewRendering20": createAdditionalMRTs
+Info: OGRE: RenderTarget "rtt/652146176/MultiViewRendering20": destroyAdditionalMRTs
+Info: OGRE: RenderTarget "rtt/652144992/MultiViewRendering10": destroyAdditionalMRTs
+Info: OGRE: RenderTarget "rtt/652147872/MultiViewRendering00": destroyAdditionalMRTs
+Info: OGRE: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Objects\T_SidewalkCorner_b_D.tga in resource group General. in ResourceGroupManager::openResource at ..\src\OgreResourceGroupManager.cpp (line 694)
+Info: OGRE: Skeleton: Loading Types\Units\Girl\Girl.skeleton
+Info: OGRE: Skeleton: Loading Types\Units\Girl\FirstPersonArms\Arms.skeleton
+Info: OGRE: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Objects\Translucent_Glass_Tinted.tga in resource group General. in ResourceGroupManager::openResource at ..\src\OgreResourceGroupManager.cpp (line 694)
+Info: OGRE: Error loading texture Objects\Translucent_Glass_Tinted.tga. Texture layer will be blank. Loading the texture failed with the following exception: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Objects\Translucent_Glass_Tinted.tga in resource group General. in ResourceGroupManager::openResource at ..\src\OgreResourceGroupManager.cpp (line 694)
+Info: OGRE: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Objects\Translucent_Glass_Tinted.tga in resource group General. in ResourceGroupManager::openResource at ..\src\OgreResourceGroupManager.cpp (line 694)
+Info: OGRE: Error loading texture Objects\Translucent_Glass_Tinted.tga. Texture layer will be blank. Loading the texture failed with the following exception: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Objects\Translucent_Glass_Tinted.tga in resource group General. in ResourceGroupManager::openResource at ..\src\OgreResourceGroupManager.cpp (line 694)
+Info: OGRE: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Objects\Translucent_Glass_Tinted.tga in resource group General. in ResourceGroupManager::openResource at ..\src\OgreResourceGroupManager.cpp (line 694)
+Info: OGRE: Error loading texture Objects\Translucent_Glass_Tinted.tga. Texture layer will be blank. Loading the texture failed with the following exception: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Objects\Translucent_Glass_Tinted.tga in resource group General. in ResourceGroupManager::openResource at ..\src\OgreResourceGroupManager.cpp (line 694)
+Info: OGRE: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Objects\Translucent_Glass_Tinted.tga in resource group General. in ResourceGroupManager::openResource at ..\src\OgreResourceGroupManager.cpp (line 694)
+Info: OGRE: Error loading texture Objects\Translucent_Glass_Tinted.tga. Texture layer will be blank. Loading the texture failed with the following exception: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Objects\Translucent_Glass_Tinted.tga in resource group General. in ResourceGroupManager::openResource at ..\src\OgreResourceGroupManager.cpp (line 694)
+Info: OGRE: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Objects\Translucent_Glass_Tinted.tga in resource group General. in ResourceGroupManager::openResource at ..\src\OgreResourceGroupManager.cpp (line 694)
+Info: OGRE: Error loading texture Objects\Translucent_Glass_Tinted.tga. Texture layer will be blank. Loading the texture failed with the following exception: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Objects\Translucent_Glass_Tinted.tga in resource group General. in ResourceGroupManager::openResource at ..\src\OgreResourceGroupManager.cpp (line 694)
+Info: OGRE: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Objects\Translucent_Glass_Tinted.tga in resource group General. in ResourceGroupManager::openResource at ..\src\OgreResourceGroupManager.cpp (line 694)
+Info: OGRE: Error loading texture Objects\Translucent_Glass_Tinted.tga. Texture layer will be blank. Loading the texture failed with the following exception: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Objects\Translucent_Glass_Tinted.tga in resource group General. in ResourceGroupManager::openResource at ..\src\OgreResourceGroupManager.cpp (line 694)
+Info: OGRE: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Objects\Translucent_Glass_Tinted.tga in resource group General. in ResourceGroupManager::openResource at ..\src\OgreResourceGroupManager.cpp (line 694)
+Info: OGRE: Error loading texture Objects\Translucent_Glass_Tinted.tga. Texture layer will be blank. Loading the texture failed with the following exception: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Objects\Translucent_Glass_Tinted.tga in resource group General. in ResourceGroupManager::openResource at ..\src\OgreResourceGroupManager.cpp (line 694)
+Info: OGRE: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Objects\Translucent_Glass_Tinted.tga in resource group General. in ResourceGroupManager::openResource at ..\src\OgreResourceGroupManager.cpp (line 694)
+Info: OGRE: Error loading texture Objects\Translucent_Glass_Tinted.tga. Texture layer will be blank. Loading the texture failed with the following exception: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Objects\Translucent_Glass_Tinted.tga in resource group General. in ResourceGroupManager::openResource at ..\src\OgreResourceGroupManager.cpp (line 694)
+Info: OGRE: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Objects\Translucent_Glass_Tinted.tga in resource group General. in ResourceGroupManager::openResource at ..\src\OgreResourceGroupManager.cpp (line 694)
+Info: OGRE: Error loading texture Objects\Translucent_Glass_Tinted.tga. Texture layer will be blank. Loading the texture failed with the following exception: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Objects\Translucent_Glass_Tinted.tga in resource group General. in ResourceGroupManager::openResource at ..\src\OgreResourceGroupManager.cpp (line 694)
+Info: OGRE: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Objects\Translucent_Glass_Tinted.tga in resource group General. in ResourceGroupManager::openResource at ..\src\OgreResourceGroupManager.cpp (line 694)
+Info: OGRE: Error loading texture Objects\Translucent_Glass_Tinted.tga. Texture layer will be blank. Loading the texture failed with the following exception: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Objects\Translucent_Glass_Tinted.tga in resource group General. in ResourceGroupManager::openResource at ..\src\OgreResourceGroupManager.cpp (line 694)
+Info: OGRE: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Objects\T_SidewalkCorner_b_D.tga in resource group General. in ResourceGroupManager::openResource at ..\src\OgreResourceGroupManager.cpp (line 694)
+Info: OGRE: Error loading texture Objects\T_SidewalkCorner_b_D.tga. Texture layer will be blank. Loading the texture failed with the following exception: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Objects\T_SidewalkCorner_b_D.tga in resource group General. in ResourceGroupManager::openResource at ..\src\OgreResourceGroupManager.cpp (line 694)
+Info: OGRE: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Objects\T_SidewalkCorner_b_D.tga in resource group General. in ResourceGroupManager::openResource at ..\src\OgreResourceGroupManager.cpp (line 694)
+Info: OGRE: Error loading texture Objects\T_SidewalkCorner_b_D.tga. Texture layer will be blank. Loading the texture failed with the following exception: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Objects\T_SidewalkCorner_b_D.tga in resource group General. in ResourceGroupManager::openResource at ..\src\OgreResourceGroupManager.cpp (line 694)
+Info: OGRE: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Objects\T_SidewalkCorner_b_D.tga in resource group General. in ResourceGroupManager::openResource at ..\src\OgreResourceGroupManager.cpp (line 694)
+Info: OGRE: Error loading texture Objects\T_SidewalkCorner_b_D.tga. Texture layer will be blank. Loading the texture failed with the following exception: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Objects\T_SidewalkCorner_b_D.tga in resource group General. in ResourceGroupManager::openResource at ..\src\OgreResourceGroupManager.cpp (line 694)
+Info: OGRE: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Objects\T_SidewalkCorner_b_D.tga in resource group General. in ResourceGroupManager::openResource at ..\src\OgreResourceGroupManager.cpp (line 694)
+Info: OGRE: Error loading texture Objects\T_SidewalkCorner_b_D.tga. Texture layer will be blank. Loading the texture failed with the following exception: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Objects\T_SidewalkCorner_b_D.tga in resource group General. in ResourceGroupManager::openResource at ..\src\OgreResourceGroupManager.cpp (line 694)
+Info: OGRE: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Objects\T_SidewalkCorner_b_D.tga in resource group General. in ResourceGroupManager::openResource at ..\src\OgreResourceGroupManager.cpp (line 694)
+Info: OGRE: Error loading texture Objects\T_SidewalkCorner_b_D.tga. Texture layer will be blank. Loading the texture failed with the following exception: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Objects\T_SidewalkCorner_b_D.tga in resource group General. in ResourceGroupManager::openResource at ..\src\OgreResourceGroupManager.cpp (line 694)
+Info: OGRE: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Objects\T_SidewalkCorner_b_D.tga in resource group General. in ResourceGroupManager::openResource at ..\src\OgreResourceGroupManager.cpp (line 694)
+Info: OGRE: Error loading texture Objects\T_SidewalkCorner_b_D.tga. Texture layer will be blank. Loading the texture failed with the following exception: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Objects\T_SidewalkCorner_b_D.tga in resource group General. in ResourceGroupManager::openResource at ..\src\OgreResourceGroupManager.cpp (line 694)
+Info: OGRE: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Objects\T_SidewalkCorner_b_D.tga in resource group General. in ResourceGroupManager::openResource at ..\src\OgreResourceGroupManager.cpp (line 694)
+Info: OGRE: Error loading texture Objects\T_SidewalkCorner_b_D.tga. Texture layer will be blank. Loading the texture failed with the following exception: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Objects\T_SidewalkCorner_b_D.tga in resource group General. in ResourceGroupManager::openResource at ..\src\OgreResourceGroupManager.cpp (line 694)
+Info: OGRE: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Objects\T_SidewalkCorner_b_D.tga in resource group General. in ResourceGroupManager::openResource at ..\src\OgreResourceGroupManager.cpp (line 694)
+Info: OGRE: Error loading texture Objects\T_SidewalkCorner_b_D.tga. Texture layer will be blank. Loading the texture failed with the following exception: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Objects\T_SidewalkCorner_b_D.tga in resource group General. in ResourceGroupManager::openResource at ..\src\OgreResourceGroupManager.cpp (line 694)
+Info: OGRE: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Objects\T_SidewalkCorner_b_D.tga in resource group General. in ResourceGroupManager::openResource at ..\src\OgreResourceGroupManager.cpp (line 694)
+Info: OGRE: Error loading texture Objects\T_SidewalkCorner_b_D.tga. Texture layer will be blank. Loading the texture failed with the following exception: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Objects\T_SidewalkCorner_b_D.tga in resource group General. in ResourceGroupManager::openResource at ..\src\OgreResourceGroupManager.cpp (line 694)
+Info: OGRE: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Objects\T_SidewalkCorner_b_D.tga in resource group General. in ResourceGroupManager::openResource at ..\src\OgreResourceGroupManager.cpp (line 694)
+Info: OGRE: Error loading texture Objects\T_SidewalkCorner_b_D.tga. Texture layer will be blank. Loading the texture failed with the following exception: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Objects\T_SidewalkCorner_b_D.tga in resource group General. in ResourceGroupManager::openResource at ..\src\OgreResourceGroupManager.cpp (line 694)
+Info: OGRE: !!! Direct3D Device Lost!
+Info: OGRE: Releasing D3D9 default pool texture: c0/rt0/MainWindow
+Info: OGRE: Released D3D9 default pool texture: c0/rt0/MainWindow
+Info: OGRE: Releasing D3D9 default pool texture: c1/rt1/MainWindow
+Info: OGRE: Released D3D9 default pool texture: c1/rt1/MainWindow
+Info: OGRE: Releasing D3D9 default pool texture: MainWindow_AdditionalMRT
+Info: OGRE: Released D3D9 default pool texture: MainWindow_AdditionalMRT
+Info: OGRE: Releasing D3D9 default pool texture: WaterPlaneReflection0
+Info: OGRE: Released D3D9 default pool texture: WaterPlaneReflection0
+Info: OGRE: Releasing D3D9 default pool texture: ShadowDirectionalLight0
+Info: OGRE: Released D3D9 default pool texture: ShadowDirectionalLight0
+Info: OGRE: Releasing D3D9 default pool texture: ShadowPointLight0
+Info: OGRE: Released D3D9 default pool texture: ShadowPointLight0
+Info: OGRE: D3D9TextureManager released:
+Info: OGRE: 6 unmanaged textures
+Info: OGRE: D3D9HardwareBufferManager released:
+Info: OGRE: 6 unmanaged vertex buffers
+Info: OGRE: 0 unmanaged index buffers
+Info: OGRE: RenderTarget "MainWindow": destroyAdditionalMRTs
+Info: OGRE: Releasing D3D9 default pool texture: c0/rt0/MainWindow
+Info: OGRE: Released D3D9 default pool texture: c0/rt0/MainWindow
+Info: OGRE: Releasing D3D9 default pool texture: c1/rt1/MainWindow
+Info: OGRE: Released D3D9 default pool texture: c1/rt1/MainWindow
+Info: OGRE: Releasing D3D9 default pool texture: MainWindow_AdditionalMRT
+Info: OGRE: Released D3D9 default pool texture: MainWindow_AdditionalMRT
+Info: OGRE: Releasing D3D9 default pool texture: WaterPlaneReflection0
+Info: OGRE: Released D3D9 default pool texture: WaterPlaneReflection0
+Info: OGRE: D3D9TextureManager released:
+Info: OGRE: 4 unmanaged textures
+Info: OGRE: D3D9HardwareBufferManager released:
+Info: OGRE: 6 unmanaged vertex buffers
+Info: OGRE: 0 unmanaged index buffers
+Info: OGRE: Reset device ok w:1440 h:900
+Info: OGRE: Recreating D3D9 default pool texture: c0/rt0/MainWindow
+Info: OGRE: Recreated D3D9 default pool texture: c0/rt0/MainWindow
+Info: OGRE: Recreating D3D9 default pool texture: c1/rt1/MainWindow
+Info: OGRE: Recreated D3D9 default pool texture: c1/rt1/MainWindow
+Info: OGRE: Recreating D3D9 default pool texture: MainWindow_AdditionalMRT
+Info: OGRE: Recreated D3D9 default pool texture: MainWindow_AdditionalMRT
+Info: OGRE: Recreating D3D9 default pool texture: WaterPlaneReflection0
+Info: OGRE: Recreated D3D9 default pool texture: WaterPlaneReflection0
+Info: OGRE: D3D9TextureManager recreated:
+Info: OGRE: 4 unmanaged textures
+Info: OGRE: D3D9HardwareBufferManager recreated:
+Info: OGRE: 6 unmanaged vertex buffers
+Info: OGRE: 0 unmanaged index buffers
+Info: OGRE: !!! Direct3D Device successfully restored.
+Info: OGRE: RenderTarget "MainWindow": createAdditionalMRTs
+Info: OGRE: !!! Direct3D Device Lost!
+Info: OGRE: Releasing D3D9 default pool texture: c0/rt0/MainWindow
+Info: OGRE: Released D3D9 default pool texture: c0/rt0/MainWindow
+Info: OGRE: Releasing D3D9 default pool texture: c1/rt1/MainWindow
+Info: OGRE: Released D3D9 default pool texture: c1/rt1/MainWindow
+Info: OGRE: Releasing D3D9 default pool texture: MainWindow_AdditionalMRT
+Info: OGRE: Released D3D9 default pool texture: MainWindow_AdditionalMRT
+Info: OGRE: Releasing D3D9 default pool texture: WaterPlaneReflection0
+Info: OGRE: Released D3D9 default pool texture: WaterPlaneReflection0
+Info: OGRE: Releasing D3D9 default pool texture: MainWindow_AdditionalMRT
+Info: OGRE: Released D3D9 default pool texture: MainWindow_AdditionalMRT
+Info: OGRE: Releasing D3D9 default pool texture: WaterPlaneReflection0
+Info: OGRE: Released D3D9 default pool texture: WaterPlaneReflection0
+Info: OGRE: Releasing D3D9 default pool texture: ShadowDirectionalLight0
+Info: OGRE: Released D3D9 default pool texture: ShadowDirectionalLight0
+Info: OGRE: D3D9TextureManager released:
+Info: OGRE: 7 unmanaged textures
+Info: OGRE: D3D9HardwareBufferManager released:
+Info: OGRE: 6 unmanaged vertex buffers
+Info: OGRE: 0 unmanaged index buffers
+Info: OGRE: RenderTarget "MainWindow": destroyAdditionalMRTs
+Info: OGRE: Releasing D3D9 default pool texture: c0/rt0/MainWindow
+Info: OGRE: Released D3D9 default pool texture: c0/rt0/MainWindow
+Info: OGRE: Releasing D3D9 default pool texture: c1/rt1/MainWindow
+Info: OGRE: Released D3D9 default pool texture: c1/rt1/MainWindow
+Info: OGRE: Releasing D3D9 default pool texture: MainWindow_AdditionalMRT
+Info: OGRE: Released D3D9 default pool texture: MainWindow_AdditionalMRT
+Info: OGRE: Releasing D3D9 default pool texture: WaterPlaneReflection0
+Info: OGRE: Released D3D9 default pool texture: WaterPlaneReflection0
+Info: OGRE: D3D9TextureManager released:
+Info: OGRE: 4 unmanaged textures
+Info: OGRE: D3D9HardwareBufferManager released:
+Info: OGRE: 6 unmanaged vertex buffers
+Info: OGRE: 0 unmanaged index buffers
+Info: OGRE: Reset device ok w:1440 h:900
+Info: OGRE: Recreating D3D9 default pool texture: c0/rt0/MainWindow
+Info: OGRE: Recreated D3D9 default pool texture: c0/rt0/MainWindow
+Info: OGRE: Recreating D3D9 default pool texture: c1/rt1/MainWindow
+Info: OGRE: Recreated D3D9 default pool texture: c1/rt1/MainWindow
+Info: OGRE: Recreating D3D9 default pool texture: MainWindow_AdditionalMRT
+Info: OGRE: Recreated D3D9 default pool texture: MainWindow_AdditionalMRT
+Info: OGRE: Recreating D3D9 default pool texture: WaterPlaneReflection0
+Info: OGRE: Recreated D3D9 default pool texture: WaterPlaneReflection0
+Info: OGRE: D3D9TextureManager recreated:
+Info: OGRE: 4 unmanaged textures
+Info: OGRE: D3D9HardwareBufferManager recreated:
+Info: OGRE: 6 unmanaged vertex buffers
+Info: OGRE: 0 unmanaged index buffers
+Info: OGRE: !!! Direct3D Device successfully restored.
+Info: OGRE: RenderTarget "MainWindow": createAdditionalMRTs
+Info: OGRE: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Objects\T_SidewalkCorner_b_D.tga in resource group General. in ResourceGroupManager::openResource at ..\src\OgreResourceGroupManager.cpp (line 694)
+Info: OGRE: RenderTarget "MainWindow": destroyAdditionalMRTs
+Info: NativeMemoryManager: Leaks statistics begin
+Info: Leak - type: Renderer, size: 32768 x 1 = 32768 (file: NULL)
+Info: Leak - type: Renderer, size: 10376 x 1 = 10376 (file: NULL)
+Info: Leak - type: Renderer, size: 8192 x 2 = 16384 (file: NULL)
+Info: Leak - type: Renderer, size: 3552 x 1 = 3552 (file: NULL)
+Info: Leak - type: Renderer, size: 1152 x 1 = 1152 (file: NULL)
+Info: Leak - type: Renderer, size: 752 x 2 = 1504 (file: NULL)
+Info: Leak - type: Renderer, size: 568 x 2 = 1136 (file: NULL)
+Info: Leak - type: Renderer, size: 504 x 1 = 504 (file: NULL)
+Info: Leak - type: Renderer, size: 448 x 2 = 896 (file: NULL)
+Info: Leak - type: Renderer, size: 416 x 1 = 416 (file: NULL)
+Info: Leak - type: Renderer, size: 392 x 1 = 392 (file: NULL)
+Info: Leak - type: Renderer, size: 352 x 1 = 352 (file: NULL)
+Info: Leak - type: Renderer, size: 336 x 1 = 336 (file: NULL)
+Info: Leak - type: Renderer, size: 272 x 1 = 272 (file: NULL)
+Info: Leak - type: Renderer, size: 256 x 2 = 512 (file: NULL)
+Info: Leak - type: Renderer, size: 232 x 2 = 464 (file: NULL)
+Info: Leak - type: Renderer, size: 208 x 20 = 4160 (file: NULL)
+Info: Leak - type: Renderer, size: 192 x 2 = 384 (file: NULL)
+Info: Leak - type: Renderer, size: 160 x 9 = 1440 (file: NULL)
+Info: Leak - type: Renderer, size: 144 x 46 = 6624 (file: NULL)
+Info: Leak - type: Renderer, size: 128 x 1 = 128 (file: OgreD3D9HardwareBufferManager.h:79)
+Info: Leak - type: Renderer, size: 128 x 134 = 17152 (file: NULL)
+Info: Leak - type: Renderer, size: 112 x 1 = 112 (file: NULL)
+Info: Leak - type: Renderer, size: 104 x 3 = 312 (file: NULL)
+Info: Leak - type: Renderer, size: 96 x 24 = 2304 (file: NULL)
+Info: Leak - type: Renderer, size: 80 x 11 = 880 (file: NULL)
+Info: Leak - type: Renderer, size: 72 x 6 = 432 (file: NULL)
+Info: Leak - type: Renderer, size: 64 x 42 = 2688 (file: NULL)
+Info: Leak - type: Renderer, size: 48 x 1340 = 64320 (file: NULL)
+Info: Leak - type: Renderer, size: 40 x 9 = 360 (file: NULL)
+Info: Leak - type: Renderer, size: 32 x 141 = 4512 (file: NULL)
+Info: Leak - type: Renderer, size: 24 x 17 = 408 (file: NULL)
+Info: Leak - type: Renderer, size: 16 x 104 = 1664 (file: NULL)
+Info: Leak - type: Renderer, size: 8 x 3 = 24 (file: NULL)
+Info: Leak - type: Renderer, size: 4 x 2 = 8 (file: NULL)
+Info: Leak - type: Physics, size: 4143 x 5 = 20715 (file: ExtSharedQueueEntryPool.h:69)
+Info: Leak - type: Physics, size: 280 x 1 = 280 (file: ExtDefaultCpuDispatcher.cpp:63)
+Info: Leak - type: Physics, size: 152 x 1 = 152 (file: ExtDefaultCpuDispatcher.cpp:65)
+Info: Leak - type: Physics, size: 88 x 1 = 88 (file: ExtDefaultCpuDispatcher.cpp:29)
+Info: Leak - type: Physics, size: 72 x 4 = 288 (file: PsThread.h:232)
+Info: Leak - type: Physics, size: 40 x 10 = 400 (file: PsSList.h:86)
+Info: Leak - type: Physics, size: 32 x 1 = 32 (file: PsSync.h:83)
+Info: Total size: 200883
+Info: NativeMemoryManager: Leaks statistics end
+Program END

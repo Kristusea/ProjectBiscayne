@@ -1,0 +1,24 @@
+sourceFile = "Objects\\SM_Bridge_Main_4.dae"
+objects
+{
+	mesh
+	{
+		name = SM_Bridge_Main_4
+		pivotRotation = -0.7071068 0 0 0.7071068
+		sources
+		{
+			item
+			{
+				name = SM_Bridge_Main_4
+			}
+			item
+			{
+				name = SM_Bridge_Main_42
+			}
+			item
+			{
+				name = geometries_4
+			}
+		}
+	}
+}
