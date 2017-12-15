@@ -1,4 +1,0 @@
-type "Freeze Objects Manager"
-{
-	class = FreezeObjectsManager
-}

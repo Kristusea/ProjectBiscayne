@@ -1,6 +1,0 @@
-highLevelMaterial playup_nomaterial
-{
-	template = ShaderBaseMaterial
-	halfLambert = True
-	diffuseColor = 0.4509804 0.4509804 0.4509804
-}

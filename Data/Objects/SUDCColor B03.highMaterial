@@ -1,6 +1,0 @@
-highLevelMaterial "SUDCColor B03"
-{
-	dataSource = ".\\SM_RoadSegment_7.modelImport"
-	template = ShaderBaseMaterial
-	diffuseColor = 0.8470588 0.8156863 0.4784314
-}

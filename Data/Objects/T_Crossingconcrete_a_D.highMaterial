@@ -1,9 +1,0 @@
-highLevelMaterial T_Crossingconcrete_a_D
-{
-	template = ShaderBaseMaterial
-	diffuseColor = 0.6 0.6 0.6
-	diffuse1Map
-	{
-		texture = ".\\Materials\\Textures\\T_Crossingconcrete_a_D.tga"
-	}
-}

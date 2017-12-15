@@ -1,9 +1,0 @@
-highLevelMaterial sketchupgrass
-{
-	template = ShaderBaseMaterial
-	diffuseColor = 0.6 0.6 0.6
-	diffuse1Map
-	{
-		texture = ".\\Materials\\Textures\\sketchupgrass.tga"
-	}
-}

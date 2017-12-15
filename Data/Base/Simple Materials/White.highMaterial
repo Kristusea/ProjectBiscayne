@@ -1,5 +1,0 @@
-highLevelMaterial White
-{
-	template = ShaderBaseMaterial
-	diffuseColor = 0.6666667 0.6666667 0.6666667
-}
